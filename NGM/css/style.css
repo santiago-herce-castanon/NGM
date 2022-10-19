@@ -1,0 +1,219 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin-top: 0.5em;
+}
+
+.narrow-panel {
+	width: 800px;
+	margin: 2em auto;
+}
+
+#prompt {
+	text-align: center;
+	font-size: 1.1em;
+	margin: 10px;
+	height: 100px;
+}
+
+#task {
+	margin: 1.5em;
+	display: none;
+	/*text-align: center;*/
+}
+
+#board {
+	margin: auto;
+	width: 402px;
+	/*border: 1px solid black;*/
+	border: 1px solid white;
+}
+
+#LevelUpBox {
+	margin: auto;
+	width: 402px;
+	/*border: 1px solid black;*/
+	border: 1px solid white;
+}
+
+#LevelUpBar {
+	margin: auto;
+	width: 402px;
+	/*border: 1px solid black;*/
+	border: 1px solid white;
+}
+
+#trial-button {
+	width: 175px;
+	height: 80px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 375px;
+	margin: auto;
+	z-index: 1;
+	display: none;
+}
+
+.circle {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 78px;
+  width: 78px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.circle img {
+	width: 70px;
+	height: 70px;
+	visibility: hidden;
+}
+
+.coin {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: solid 1px #000000;
+  display: inline-block;
+  text-align: center;
+}
+
+.bar {
+	margin: 0;
+	width: 500px;
+	height: 18px;
+	/*border: 1px solid #000000;*/
+	border: 1px solid #000000;
+	display: inline-block;
+	text-align: center;
+}
+
+.grid-row {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 0px;
+}
+
+.square {
+	margin: 0;
+	width: 80px;
+	height: 80px;
+	/*border: 1px solid #000000;*/
+	border: 1px solid #dddddd;
+	display: inline-block;
+	text-align: center;
+}
+
+.square img {
+	width: 70px;
+	height: 70px;
+	visibility: hidden;
+}
+
+#shape-probe {
+	width: 65px;
+	height: 65px;
+}
+
+#info {
+	width: 502px;
+	margin: auto;
+	margin-top: 0.5em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#info::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#score {
+	float: left;
+	color: lightgray;
+}
+
+.score-class {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#added-points {
+	font-size: 1em;
+}
+
+#timer {
+	float: right;
+	color: darkgray;
+}
+
+#LevelNum {
+	float: right;
+	color: darkgray;
+	margin-left: 2.5em;
+}
+
+#options {
+	text-align: center;
+}
+
+#Levelup-modal {
+	display: none;
+}
+
+#Toggle-modal {
+	display: none;
+}
+
+#pause-modal {
+	display: none;
+}
+
+#idle-msg, #end-div, #new-high-score-msg, #current-high-score-msg, #previous-high-score-msg, #levelup-msg, #llevelnum-msg {
+	display: none;
+}
+
+#end-div {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*#pause-message {
+	text-align: center;
+	font-size: 3em;
+	margin: 10px;
+	height: 125px;
+	display: none;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}*/
+
+/*#pause-screen {
+	font-size: 5em;
+	z-index: 1;
+	position: absolute;
+	top: 300px;
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto; 
+  	width: 510px;
+  	text-align: center;
+  	background-color: rgba(255, 255, 255, 0.9);
+  	height: 500px;
+}*/
